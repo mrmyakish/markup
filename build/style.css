@@ -1,0 +1,213 @@
+header {
+  height: 160px;
+  width: 1350px;
+  border: 1px solid;
+  position:absolute;
+  background-color: #e0e0e0;
+}
+.bigstore {
+    border: 1px solid;
+     font-size: 60px;
+  width: 180px;
+  height: 180px;
+  left: 120px;
+  position: relative;
+  background-color:red;
+  color:white;
+}
+.pixel{
+  position:relative;
+  left:177.5px;
+  height: 27px;
+  bottom: 14px;
+  width: 10px;
+}
+.BIG1 {
+  top: 30px;
+  position:relative;
+    text-align:center;
+
+}
+.BIG2 {
+  font-size: 33px;
+  position:relative;
+  top:20px;
+  left: 41px;
+}
+.social  {
+  position:relative;
+  bottom: 180px;
+  width: 450px;
+  float: right;
+  right: 140px;
+}
+.menu {
+  border: px solid;
+  height: 50px;
+  width: 750px;
+  position: relative;
+  bottom: 120px;
+  left: 300px;
+
+}
+.sub_menu {
+  width: 119px;
+  text-align: center;
+    display: inline-block;
+  position: relative;
+  top: 13px;
+  left: 8px;
+margin-left: -4.8px;
+  
+}
+.black_zone_1 {
+  height: 46px;
+  width: 120px;
+  position: relative;
+  bottom: 122px ;
+    background-color: #252525;
+
+  
+}
+.black_zone_2 {
+  height: 47px;
+  width: 1049px;
+  position: relative;
+  bottom: 170px ;
+  left: 299px;
+  background-color: #252525;
+  color: white;
+  
+}
+.black_zone_text {
+  top: 13px;
+  position: relative;
+  left: 20px;
+  color: #e4e4e4
+}
+.black_zone_text2 {
+  width: 223px;
+  left: 700px;
+  position: relative;
+  bottom: 9px;
+}
+.body {
+  height: 1590px;     
+  border: 1px solid;
+  
+  top: 170px;
+  width: 1350px;
+  background-image: url(http://s018.radikal.ru/i506/1609/f6/1bb32b379941.png
+);
+  
+}
+.container {
+  top: 170px;
+  position: relative;
+ 
+}
+.featured {
+  width: 250px;
+  height: 380px;
+  position: relative;
+  top: 180px;
+  left: 104px;
+}
+.featured_1 {
+  width: 250px;
+  height: 50px;
+}
+.featured_2 {
+  height: 322px;
+width: 250px;
+}
+.store {
+  width: 860px;
+  height: 360px;
+  position: relative;
+  bottom: 186px;
+  left: 355px;
+  }
+.trending {
+  position: relative;
+  bottom: 170px;
+  left: 104px;
+}
+.smenu {
+  height: 520px;
+  width: 248px;
+  border: 1px solid;
+  position: relative;
+  left: 103px;
+  bottom: 175px;
+  background-color: white;
+}
+.rediv {
+  
+    background: red;
+    position: absolute;
+    width: 270px; height: 55px;
+  
+  display: none;
+   }
+.rediv::after {
+    content: ''; 
+    position: absolute;
+    right: -75px; top: 1px;
+    border: 28px solid transparent;
+    border-left: 50px solid red;
+  
+}
+  .text {
+  color: white;
+    top:18px;
+    left: 35px;
+    position:relative;
+  }
+.nodiv {
+   position: relative;
+    width: 245px; height: 55px;
+ right: px; 
+  border: 1px solid;
+  
+}
+.notext {
+  top:10px;
+    left: 35px;
+    position:relative;
+  font-size: 25px;
+}
+/*
+.rediv:hover .notext { 
+  display: block;
+}  
+
+*/
+.nodiv:hover {
+  background-color:red;
+  color:white;
+}
+.guy {
+  position: relative;
+  bottom: 770px;
+  left: 350px;
+  width: 865px;
+  height: 595px;
+}
+
+.banner {
+  width: 1113px;
+  position:relative;
+  left: 103px;
+}
+footer {
+  height: 465px;
+  border: 1px solid;
+  width: 1350px;
+  background-color: #252525;
+
+}
+.ban {
+  height: 400px;
+  width: 1350px;
+}
