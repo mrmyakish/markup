@@ -2,7 +2,18 @@ header {
   width: 98%;
   height: 100px;
   position:fixed;
-  background-color:black;
+  background-color:transparent;
+}
+.main{
+  height: 1000px;
+}
+a{
+  text-decoration:none;
+  color: white;
+}
+a:hover {
+  color: orange;
+  border-bottom: outset;
 }
 .icon{
   height: 100px;
@@ -20,8 +31,36 @@ header {
   position:absolute;
   text-align: center;
   font-size: 40px;
+  background-color: black
 }
 li {
   display: inline-block;
-  color:white;
+}
+.content {
+  width: 100%;
+  border: 1px solid;
+  height: 1400px;
+  margin-top:-10px;
+    color:white;
+background-color:black;
+border: 1px solid white;
+}
+.WiP {
+  text-align:center;
+  font-size:70px;
+  margin-top: -25px;
+}
+.text_content{
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  font-size:38px;
+  float: right;
+  margin-top: 60px;
+}
+.video {
+  margin-top: 40px;
+float: left;
+  width:50%;
+  height: 500px;
 }
