@@ -1,66 +1,91 @@
 header {
   width: 98%;
   height: 100px;
-  position:fixed;
-  background-color:transparent;
+  position: fixed;
+  background-color: transparent;
 }
-.main{
+
+.main {
   height: 1000px;
 }
-a{
-  text-decoration:none;
+
+a {
+  text-decoration: none;
   color: white;
 }
+
 a:hover {
   color: orange;
   border-bottom: outset;
 }
-.icon{
+
+.icon {
   height: 100px;
 }
+
 .icon_img_main {
   width: 300px;
   height: 100px;
   margin: auto;
 }
+
 #navbar {
   top: -10px;
   list-style-type: none;
   width: 400px;
   height: 50px;
-  position:absolute;
+  position: absolute;
   text-align: center;
   font-size: 40px;
   background-color: black
 }
+
 li {
   display: inline-block;
 }
+
 .content {
   width: 100%;
   border: 1px solid;
-  height: 1400px;
-  margin-top:-10px;
-    color:white;
-background-color:black;
-border: 1px solid white;
+  height: 1150px;
+  margin-top: -10px;
+  color: white;
+  background-color: black;
 }
+
 .WiP {
-  text-align:center;
-  font-size:70px;
+  text-align: center;
+  font-size: 70px;
   margin-top: -25px;
 }
-.text_content{
+
+.text_content {
   text-align: center;
   width: 50%;
-  height: 400px;
-  font-size:38px;
+  height: 480px;
+  font-size: 38px;
   float: right;
   margin-top: 60px;
 }
+
 .video {
   margin-top: 40px;
-float: left;
-  width:50%;
+  float: left;
+  width: 50%;
   height: 500px;
+}
+
+.ash {
+  float: right;
+  width: 50%;
+  height: 500px;
+}
+
+.text_content_2 {
+  text-align: center;
+  width: 50%;
+  height: 480px;
+  font-size: 38px;
+  float: right;
+  margin-top: 60px;
 }
