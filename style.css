@@ -43,8 +43,53 @@ a:hover {
 li {
   display: inline-block;
 }
+.pokeball {
+  display: flex;
+  margin: auto;
+  width: 1600px;
+}
+.WiP {
+  text-align: center;
+  font-size: 70px;
+  height: 50px;
+  margin: auto;
+}
+.content_main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1600px;
+  border: 1px solid;
+  height: 1150px;
+  margin: auto;
+  color: white;
+  background-color: black;
 
+}
 .content {
+  width: 1600px;
+  border: 1px solid;
+  height: 600px;
+  display: flex;
+  margin-top: -10px;
+  color: white;
+  background-color: black;
+  }
+  .video {
+    margin-top: 40px;
+    float: left;
+    width: 50%;
+    height: 500px;
+    }
+    .text_content {
+      text-align: center;
+      width: 50%;
+      height: 480px;
+      font-size: 38px;
+      float: right;
+      margin-top: 60px;
+    }
+
+/*.content {
   width: 100%;
   border: 1px solid;
   height: 1150px;
@@ -89,3 +134,4 @@ li {
   float: right;
   margin-top: 60px;
 }
+*\
