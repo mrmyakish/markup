@@ -83,8 +83,9 @@ li {
 }
 .text_content_1 {
   width: 50%;
+  text-align: center;
   height: 480px;
-  font-size: 29px;
+  font-size: 25px;
   float: right;
   margin-top: 40px;
 }
