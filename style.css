@@ -4,7 +4,9 @@ header {
   position: fixed;
   background-color: transparent;
 }
-
+body {
+background-color: black;
+}
 .main {
   height: 1000px;
 }
@@ -32,23 +34,23 @@ a:hover {
 #navbar {
   top: -10px;
   list-style-type: none;
-  width: 400px;
-  height: 50px;
-  position: absolute;
+  width: 18%;
+  border:1px solid white;
+  height: 200px;
   text-align: center;
   font-size: 40px;
   background-color: black
 }
 
 li {
-  display: inline-block;
 }
 .pokeball {
   display: flex;
   margin: auto;
-  width: 1600px;
+  width: 80%;
 }
 .WiP {
+
   text-align: center;
   font-size: 70px;
   height: 50px;
@@ -57,7 +59,7 @@ li {
 .content_main {
   display: flex;
   flex-wrap: wrap;
-  width: 1600px;
+  width: 80%;
   border: 1px solid;
   height: 1150px;
   margin: auto;
@@ -65,7 +67,7 @@ li {
   background-color: black;
 
 }
-.content {
+.content_1 {
   width: 1600px;
   border: 1px solid;
   height: 600px;
@@ -73,21 +75,20 @@ li {
   margin-top: -10px;
   color: white;
   background-color: black;
-  }
-  .video {
-    margin-top: 40px;
-    float: left;
-    width: 50%;
-    height: 500px;
-    }
-    .text_content {
-      text-align: center;
-      width: 50%;
-      height: 480px;
-      font-size: 38px;
-      float: right;
-      margin-top: 60px;
-    }
+}
+.video {
+  margin-top: 40px;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.text_content_1 {
+  width: 50%;
+  height: 480px;
+  font-size: 29px;
+  float: right;
+  margin-top: 40px;
+}
 
 /*.content {
   width: 100%;
