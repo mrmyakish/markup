@@ -1,5 +1,5 @@
 # markup
 My Layout
-Version: a0.2
+Version: 0.4\Mobile
 https://mrmyakish.github.io/markup/
 all in gh-pages branch
