@@ -1,48 +1,106 @@
-header {
-  width: 98%;
-  height: 100px;
+.secret {
+  position: absolute;
   position: fixed;
-  background-color: transparent;
-}
-body {
-background-color: black;
-}
-.main {
-  height: 1000px;
-}
+  left: 2000px;
+  top: 500px;
+  visibility: hidden;
 
-a {
-  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
   color: white;
+  background-color: black;
+  position: fixed;
 }
-
-a:hover {
-  color: orange;
-  border-bottom: outset;
+.header_logo {
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
 }
-
-.icon {
-  height: 100px;
+.header_logo2 {
+  width: 50px;
+  position: absolute;
+  cursor: pointer;
+  height: 40px;
+  visibility: hidden;
 }
+.secret_ball {
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
+  left: 1600px;
+  top: 400px;
+  visibility: hidden;
 
-.icon_img_main {
-  width: 300px;
-  height: 100px;
-  margin: auto;
 }
-
-#navbar {
-  top: -10px;
-  list-style-type: none;
-  width: 18%;
-  border:1px solid white;
-  height: 200px;
+.secret_chu {
+  width: 50px;
+  position: absolute;
+  cursor: pointer;
+  height: 40px;
+  left: 1270px;
+  top: 400px;
+  visibility: hidden;
+}
+.menu {
+  height: 40px;
+  width: 100px;
+  font-size: 30px;
   text-align: center;
-  font-size: 40px;
-  background-color: black
 }
+.menu_li2 {
+  position: relative;
+  left: 200px;
+  bottom: 210px;
+}
+.menu_li3 {
+  position: relative;
+  left: 200px;
+  bottom: 312px;
+}
+.settings {
 
+}
+.menu_text {
+  margin-left: 60px;
+  cursor: default;
+}
+.menu_link {
+  text-decoration: none;
+  color: orange;
+}
+.main_slider{
+  cursor:default;
+  position:relative;
+  top:0px;
+  left:0px;
+  width:1500px;
+  height:600px;
+  overflow:hidden;
+}
+ul {
+  display: block;
+  position: relative;
+  bottom: 23.5px;
+  right: 41px;
+}
 li {
+  visibility: hidden;
+  border: 1px solid;
+  display: block;
+  width: 200px;
+  color: white;
+  background-color: black;
+
+
+}
+.content {
+  border: 1px solid;
+  height: 3000px;
+  width: 100%;
+  background-color: black;
 }
 .pokeball {
   display: flex;
@@ -109,49 +167,68 @@ li {
   float: right;
   margin-top: 40px;
 }
-/*.content {
-  width: 100%;
-  border: 1px solid;
-  height: 1150px;
-  margin-top: -10px;
-  color: white;
-  background-color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jssorl-oval img {
+    animation-name: jssorl-oval;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.WiP {
-  text-align: center;
-  font-size: 70px;
-  margin-top: -25px;
-}
+@keyframes jssorl-oval {
+    from {
+        transform: rotate(0deg);
+    }
 
-.text_content {
-  text-align: center;
-  width: 50%;
-  height: 480px;
-  font-size: 38px;
-  float: right;
-  margin-top: 60px;
+    to {
+        transform: rotate(360deg);
+    }
 }
-
-.video {
-  margin-top: 40px;
-  float: left;
-  width: 50%;
-  height: 500px;
+.jssorb05 {
+    position: absolute;
+    bottom:16px;
+    right:16px;
 }
-
-.ash {
-  float: right;
-  width: 50%;
-  height: 500px;
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
 }
-
-.text_content_2 {
-  text-align: center;
-  width: 50%;
-  height: 480px;
-  font-size: 38px;
-  float: right;
-  margin-top: 60px;
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('img/a22.png') center center no-repeat;
+    overflow: hidden;
 }
-*\
+.jssora22l { background-position: -10px -31px;top:0px;left:8px;width:40px;height:58px;}
+.jssora22r { background-position: -70px -31px;top:0px;right:8px;width:40px;height:58px;}
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+.jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+.jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
