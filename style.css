@@ -13,18 +13,20 @@ a.knopka:active { background: rgb(152,15,0); }
   align-items:center;
   justify-content: center;
 }
-.img {
-  width: 1250px;
-  margin: auto;
-}
+
 .Pokeman_img{
-  visibility: hidden;
   position: absolute;
   opacity: 0;
+  width: 100%
 
 }
 .Phone_img{
-  visibility: hidden;
   position: absolute;
   opacity: 0;
+  width:  100%
+}
+.Order_img{
+  position: absolute;
+  opacity: 0;
+  width:  100%
 }
