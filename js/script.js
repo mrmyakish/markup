@@ -1,32 +1,20 @@
 $(document).ready(function(){
-$(".Phone").hover(function(){
-  $( ".Phone_img" ).animate({opacity: 1})
-  $( ".Order_img" ).animate({opacity: 0})
-  $( ".Pokeman_img" ).animate({opacity: 0})
+$(".milli").hover(function(){
+  $( ".milli_h" ).animate({opacity: 0.8})
 });
-$(".Phone").mouseleave(function(){
-  $( ".Phone_img" ).animate({opacity: 0})
-  $( ".Pokeman_img" ).animate({opacity: 0})
-  $( ".Order_img" ).animate({opacity: 0})
-
+$(".milli").mouseleave(function(){
+  $( ".milli_h" ).animate({opacity: 0})
 });
-$(".Pokeman").hover(function(){
-  $( ".Pokeman_img").animate({opacity: 1})
-  $( ".Phone_img" ).animate({opacity: 0})
-  $( ".Order_img" ).animate({opacity: 0})
-
+$(".phone").hover(function(){
+  $( ".phone_h" ).animate({opacity: 0.8})
 });
-$(".Pokeman").mouseleave(function(){
-  $( ".Pokeman_img" ).animate({opacity: 0})
-  $( ".Phone_img" ).animate({opacity: 0})
-  $( ".Order_img" ).animate({opacity: 0})
-  });
-$(".Order").hover(function(){
-  $( ".Order_img" ).animate({opacity: 1})
-  $( ".Phone_img" ).animate({opacity: 0})
+$(".phone").mouseleave(function(){
+  $( ".phone_h" ).animate({opacity: 0})
 });
-$(".Order").mouseleave(function(){
-  $( ".Order_img" ).animate({opacity: 0})
-  $( ".Phone_img" ).animate({opacity: 0})
-    });
+$(".pokeman").hover(function(){
+  $( ".pokeman_h" ).animate({opacity: 0.8})
+});
+$(".pokeman").mouseleave(function(){
+  $( ".pokeman_h" ).animate({opacity: 0})
+});
 })

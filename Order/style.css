@@ -20,21 +20,31 @@ a{
     color: #6fb0b7;
 }
 .header_content{
-  margin: auto;
-  width: 1111px;
+  width:100%;
   position: fixed;
   display: flex;
   background-color: white;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
-.icon{
-  height: 60px;
-  width: 190px;
+.logo_t{
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+.mili{
+  color: #6dd1b5;
 }
 .home{
   height: 23px;
   width: 23px;
+  margin-right: 30px;
+
+}
+.info{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .menu{
   justify-content: space-between;
@@ -67,7 +77,7 @@ body{
   display: flex;
   height: 660px;
   width: 100%;
-  background-image: url(https://pp.userapi.com/c840221/v840221641/1dd9/LVLXvd7Ojsw.jpg);
+  background-image: url(source/balloons.jpg);
   background-size: cover;
   flex-direction: column;
   align-items: center;
