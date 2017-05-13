@@ -1,32 +1,88 @@
-a.knopka {
-  color: #fff;
-  text-decoration: none;
-  user-select: none;
-  background: rgb(212,75,56);
-  padding: .7em 1.5em;
-  outline: none;
+a{
+ text-decoration: none;
+ color: red;
+ font-size: 30px;
 }
-a.knopka:hover { background: rgb(232,95,76); }
-a.knopka:active { background: rgb(152,15,0); }
-.menu{
+#video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    background: url(bg/daisy-stock-poster.jpg) no-repeat #94a233;
+    background-size: cover;
+}
+#video-bg > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+ @supports (object-fit: cover) {
+     #video-bg > video {
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+ }
+.menu {
+  max-width: 1000px;
+  border: 1px solid;
+  margin: auto;
+  height: 800px;
+}
+.mrkup_container{
+  z-index: 1;
+
+  background: url(source/bg_v.mp4);
+width: 100%;
+height: 700px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.mrkup{
+  z-index: 1;
+  border-radius: 20px;
+  margin: 15px;
+  width: 300px;
+  height: 250px;
+  border: 1px solid;
+}
+.mrkup_h{
+  opacity: 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  border: 1px solid;
   display: flex;
-  align-items:center;
   justify-content: center;
+  align-items: center;
 }
+.background{
+  background-position: center center;
+  background-size: cover;
 
-.Pokeman_img{
-  position: absolute;
+}
+.milli{
+  background-image: url(source/Order.jpg);
+}
+.phone{
+ background-image: url(source/Phone.png);
+}
+.pokeman{
+ background-image: url(source/Pokeman.jpg);
+}
+.phone_h{
   opacity: 0;
-  width: 100%
 
-}
-.Phone_img{
-  position: absolute;
-  opacity: 0;
-  width:  100%
-}
-.Order_img{
-  position: absolute;
-  opacity: 0;
-  width:  100%
 }
