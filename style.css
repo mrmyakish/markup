@@ -11,7 +11,7 @@ a{
     left: 0;
     overflow: hidden;
     z-index: 0;
-    background: url(bg/daisy-stock-poster.jpg) no-repeat #94a233;
+    background: url(source/bg.jpg) no-repeat #94a233;
     background-size: cover;
 }
 #video-bg > video {
